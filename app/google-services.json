@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "411756067093",
+    "project_id": "msapps-160fb",
+    "storage_bucket": "msapps-160fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411756067093:android:d1fe698e725c62e5ac511c",
+        "android_client_info": {
+          "package_name": "mosh.com.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411756067093-8ndn5se7gsmlabdbcpubps5mfqn1h92t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mosh.com.assignment",
+            "certificate_hash": "101137c3f7eaf5695933d65dc2c8ebe9e04dda35"
+          }
+        },
+        {
+          "client_id": "411756067093-f0rnjpe6cm4d5eqcltokuvh9tifbofo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBRPmViwJHfp_yRvOGKGrWpXehvBf3PO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411756067093-f0rnjpe6cm4d5eqcltokuvh9tifbofo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

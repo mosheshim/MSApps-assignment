@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/FragmentHome">
+
+    <fragment
+        android:id="@+id/FragmentHome"
+        android:name="mosh.com.assignment.ui.FragmentHome"
+        android:label="@string/categories"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/navigation_to_articles"
+            app:destination="@id/FragmentArticles"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FragmentArticles"
+        android:name="mosh.com.assignment.ui.FragmentArticles"
+        tools:layout="@layout/fragment_articles">
+        <action
+            android:id="@+id/navigation_to_article_page"
+            app:destination="@id/FragmentArticlePage"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FragmentArticlePage"
+        android:name="mosh.com.assignment.ui.FragmentArticlePage"
+        tools:layout="@layout/fragment_article_page">
+    </fragment>
+
+</navigation>
